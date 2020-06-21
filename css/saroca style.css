@@ -1,0 +1,86 @@
+@import "all.min.css";
+@import "normalize.css";
+@import "bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import "bootstrap sandstone.min.css";
+
+
+/*global css*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,figure{
+    margin: auto;
+}
+/*header css style*/
+header{
+    background-color: #fffefa;
+    overflow: hidden;
+}
+header>n
+
+
+header >.container > nav > img{
+    float: left;
+}
+header >.container> nav >ul{
+    float: right;
+}
+header >.container> nav >ul>li{
+    display: inline-block;
+}
+
+header >.container> nav >ul>li{
+    margin-right: 15px;
+}
+
+header >.container> nav >ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+
+/*
+Banner css style*/
+
+h1,h2{
+    font-family: 'Courgette', cursive;
+}
+#banner{
+    background-image: url("../img/untitled-1-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#banner>.container>h1{
+    padding-top: 200px;
+    color: #81b4ff;
+    font-size: 50px;
+}
+
+#banner>.container>h2{
+    letter-spacing: 0.2em;
+}
+
+#banner>.container>h3{
+  /*  color: white;
+    font-size: 40px;*/
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+#banner>.container>p{
+    padding-bottom: 200px;
+    font-weight: bold;
+}
+
+/*aboutUs section css*/
+
+#aboutUs h2{
+    font-size: 50px;
+}
+
+#aboutUs h3{
+    font-size: 45px;
+    letter-spacing: 0.3em;
+}
+
